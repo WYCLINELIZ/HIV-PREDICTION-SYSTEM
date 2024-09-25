@@ -20,9 +20,7 @@ X = df[['sex', 'age', 'weight', 'height']]
 y = df['outcome']
 
 
-# Train model
-model = RandomForestClassifier()
-model.fit(X_train, y_train)
+
 
 # Streamlit app
 st.title("ADH Client Outcome Prediction")
