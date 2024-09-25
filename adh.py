@@ -18,7 +18,7 @@ df['sex'] = df['sex'].map({'M': 1, 'F': 0})
 # Prepare data
 X = df[['sex', 'age', 'weight', 'height']]
 y = df['outcome']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
 
 # Train model
 model = RandomForestClassifier()
