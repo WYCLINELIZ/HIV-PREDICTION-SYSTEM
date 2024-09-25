@@ -19,9 +19,6 @@ df['sex'] = df['sex'].map({'M': 1, 'F': 0})
 X = df[['sex', 'age', 'weight', 'height']]
 y = df['outcome']
 
-
-
-
 # Streamlit app
 st.title("ADH Client Outcome Prediction")
 
