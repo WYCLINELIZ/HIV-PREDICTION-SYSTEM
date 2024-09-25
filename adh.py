@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
+
 
 # Sample data (replace with your actual dataset)
 data = {
